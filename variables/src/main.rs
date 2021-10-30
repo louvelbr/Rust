@@ -1,6 +1,6 @@
-/*Chapter 3*/
+/*Chapter 3: common programming concepts p.31*/
 fn main() {
-    /*utable variables*/
+    /*mutable variables*/
     let mut x = 5;
     println!("The value of x is {}", x);
     x = 6;
@@ -62,7 +62,7 @@ fn main() {
 
     let a: [i32; 5] = [1, 2, 3, 4, 5];  //i32: type and 5: size
 
-    let a = [3; 5] // <=> let a = [3, 3, 3, 3, 3, 3];
+    let a = [3; 5]; // <=> let a = [3, 3, 3, 3, 3, 3];
 
     /*Accessing Array Elements*/
     let a = [1, 2, 3, 4, 5];
